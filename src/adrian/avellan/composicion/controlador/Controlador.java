@@ -13,6 +13,7 @@ public class Controlador {
     private UI interfaz = new UI();
     private Gestor gestor = new Gestor();
     private ArrayList<Factura> facturas = new ArrayList<>();
+    private ArrayList<Producto> productos = new ArrayList<>();
 
     public void ejecutarPrograma() {
         int opcion = 0;
